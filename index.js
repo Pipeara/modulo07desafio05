@@ -11,7 +11,7 @@ app.use(cors());
 
 // Aplicar los middlewares a todas las rutas
 app.use(queryReport);
-app.use(contadorConsultas);
+//app.use(contadorConsultas);
 
 app.listen(PORT, () => {
     console.log(`Servidor escuchando en el puerto ${PORT}`);
